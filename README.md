@@ -1,4 +1,4 @@
-# Data_structures_and_algo
+# DSA_partice
 DS&amp;A with C++
 
 Welcome to the Data Structures and Algorithms (DSA) Practice Repository! This repository is designed to help you enhance your DSA skills and prepare for coding interviews, competitive programming, or any other domain that demands strong algorithmic knowledge.
