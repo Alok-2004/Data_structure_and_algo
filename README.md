@@ -8,7 +8,6 @@ Welcome to the Data Structures and Algorithms (DSA) Practice Repository! This re
 - [Introduction](#introduction)
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)
 
 ## Introduction
 
