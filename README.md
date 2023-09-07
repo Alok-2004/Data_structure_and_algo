@@ -9,8 +9,6 @@ Welcome to the Data Structures and Algorithms (DSA) Practice Repository! This re
 - [Repository Structure](#repository-structure)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing)
-- [Resources](#resources)
-- [License](#license)
 
 ## Introduction
 
@@ -26,9 +24,6 @@ The repository is organized into the following main sections:
 
 - **Solutions**: Detailed sample solutions are provided for many coding challenges, accompanied by explanations to help you understand the thought process and implementation.
 
-- **Visualizations**: Some sections may contain visualizations or diagrams to aid in understanding complex algorithms.
-
-- **Resources**: Discover recommended textbooks, online courses, and websites to further enhance your DSA knowledge.
 
 - **Contributions**: You're encouraged to contribute your own coding challenges, solutions, or educational resources to enrich the content and help fellow learners. Follow the [contributing guidelines](CONTRIBUTING.md) for details.
 
@@ -38,23 +33,5 @@ The repository is organized into the following main sections:
    ```
    git clone https://github.com/Alok-2004/Data_structure_and_algo.git
    ```
-
-2. **Explore and Practice**: Navigate through the folders and files to explore various DSA topics and coding challenges. Start practicing and honing your skills.
-
-3. **Contribute**: If you have your own DSA practice files, solutions, or educational resources to share, please follow the [contributing guidelines](CONTRIBUTING.md) to make your contribution.
-
-## Contributing
-
-We welcome contributions from the community to make this repository even more valuable. If you have coding challenges, solutions, or educational materials related to DSA, please follow the [contributing guidelines](CONTRIBUTING.md) to contribute.
-
-## Resources
-
-- [Recommended DSA Books](resources/books.md)
-- [Online DSA Courses](resources/courses.md)
-- [Useful DSA Websites](resources/websites.md)
-
-## License
-
-This repository is licensed under the [MIT License](LICENSE). By contributing to this project, you agree that your contributions will be licensed under the MIT License. We encourage you to review the license for more details.
 
 Happy coding and improving your DSA skills!
