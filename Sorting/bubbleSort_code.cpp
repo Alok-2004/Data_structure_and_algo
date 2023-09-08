@@ -1,52 +1,54 @@
-#include <iostream>
-#include <algorithm> // Required for swap function
+#include<iostream>
+#include<vector>
+#include<string>
+#include<algorithm>
 
 using namespace std;
 
-void seet(int arr[], int n)
-{
-    // Sorting odd-indexed elements in descending order
-    for (int i = 1; i < n; i += 2)
-    {
-        for (int j = 1; j < n - i; j += 2)
-        {
-            if (arr[j] > arr[j + 2])
-            {
-                swap(arr[j], arr[j + 2]);
-            }
-        }
-    }
-
-    // Sorting even-indexed elements in ascending order
-    for (int i = 0; i < n; i += 2)
-    {
-        for (int j = 0; j < n - i - 2; j += 2)
-        {
-            if (arr[j] > arr[j + 2])
-            {
-                swap(arr[j], arr[j + 2]);
-            }
-        }
-    }
-}
-
 int main()
 {
-    int n;
-    cin >> n;
-
-    int arr[n];
-
-    for (int i = 0; i < n; i++)
-    {
-        cin >> arr[i];
-    }
-
-    seet(arr, n);
-
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i] << " ";
-    }
+	vector<int> nums(5);
+	for(int i = 0; i<5; i++)
+	{
+		cin>>nums[i];
+	}
+	
+	int  n = 5;
+	// Bubble sort
+	/*
+	for(int i = 0; i<n-1; i++)
+	{
+		// Traversing
+		for(int j = 0; j<n-1-i; j++) // here j<n-1 will also work but will take more time
+		{
+			if(nums[j] > nums[j+1])
+			{
+				swap(nums[j], nums[j+1]); // Swap is inbuilt function
+			}
+		}
+	}
+	*/
+	
+	//Better Bubble sort 
+	
+	bool flag = true;
+	for(int i = 0; i<n-1; i++)
+	{
+		// Traversing
+		for(int j = 0; j<n-1-i; j++) // here j<n-1 will also work but will take more time
+		{
+			if(nums[j] > nums[j+1])
+			{
+				swap(nums[j], nums[j+1]); // Swap is inbuilt function
+				flag = false;
+			}
+		if(flag == true) break;// This means swap didnt happen and the array id sorted
+		}
+	}
+	
+	for(int i = 0; i<5; i++)
+	{
+		cout<<nums[i]<<" ";
+	}
+	return 0;
 }
-
