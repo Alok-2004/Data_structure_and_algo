@@ -23,9 +23,6 @@ The repository is organized into the following main sections:
 
 - **Solutions**: Detailed sample solutions are provided for many coding challenges, accompanied by explanations to help you understand the thought process and implementation.
 
-
-- **Contributions**: You're encouraged to contribute your own coding challenges, solutions, or educational resources to enrich the content and help fellow learners. Follow the [contributing guidelines](CONTRIBUTING.md) for details.
-
 ## Getting Started
 
 1. **Clone the Repository**: To get started, clone this repository to your local machine using the following command:
@@ -33,4 +30,4 @@ The repository is organized into the following main sections:
    git clone https://github.com/Alok-2004/Data_structure_and_algo.git
    ```
 
-Happy coding and improving your DSA skills!
+Happy coding and keep improving your DSA skills!
