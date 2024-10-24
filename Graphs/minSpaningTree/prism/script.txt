@@ -1,0 +1,14 @@
+Data Structure needed :-  
+Priority Queue of pair < weight , destination > min heap
+unordered_map
+
+
+steps:-
+
+- insert the pair <-1 , source> in Priority_queue
+- one by one remove the root element of the Priority_queue 
+- if the root Element is already visited , then we will just continue
+- we mark the root visited
+- We store the weight of the pair in the answ
+- Update the mapping
+- Go to every neighbour of the curr element, and only add those which are non visited and have a better weight proposition
